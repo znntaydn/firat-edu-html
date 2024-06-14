@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fırat Üniversitesi Ana Sayfa</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    header {
+        background-color: #699545;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+    nav ul li a:hover {
+    color:  #e3dc0dc2  ; /* Fare imleci menü bağlantısına geldiğinde renk değişimi */
+}
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    nav ul li {
+        display: inline;
+    }
+    
+    nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+    
+    .container {
+        display: flex;
+    }
+    
+    
+    .content {
+        flex: 1;
+        padding: 20px;
+    }
+    img{
+       background-position: center;
+    }
+    footer {
+        background-color: #056351 ;
+    color: white;
+    padding: 6px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    clear: both; /* Footer'ı içeriğin altına taşır */
+    margin-top: 20px; /* İçerik ile footer arasındaki boşluğu ayarlar */
+   }
+   .center-image {
+            display: block;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Fırat Üniversitesi Yazılım Mühendisliği</h1>
+        <nav>
+            <ul>
+                <li><a href="homepage.html">Ana Sayfa</a></li>
+                <li><a href="about.html">Hakkımızda</a></li>
+                <li><a href="courses.html">Dersler</a></li>
+                <li><a href="news.html">Duyurular</a></li>
+                <li><a href="contact.html">İletişim</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+       
+        <main class="content">
+            <h2>Hoş Geldiniz!</h2>
+            <p>Fırat Üniversitesi, öğrencilere kaliteli eğitim ve deneyim sunan bir eğitim kurumudur. Eğitim fırsatları, etkinlikler ve daha fazlası için sitemizi keşfedin.</p>
+            <p>Başka bir sayfaya gitmek için menüyü kullanabilirsiniz.</p>
+          
+           <img src="/firat-Html/images/firatlogo.png" alt=  "a technical error"  width="1000"> 
+        </main>
+    </div>
+    <footer>
+        <p>&copy; 2024 Fırat Üniversitesi</p>
+    </footer>
+</body>
+</html>

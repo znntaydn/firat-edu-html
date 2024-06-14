@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim</title>
+    <style>
+        
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    nav ul li {
+        display: inline;
+    }
+    
+    nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color:#699545 ;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+            max-width: 600px;
+            margin: 0 auto; /* Sayfayı merkeze hizalar */
+        }
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .contact-info {
+            margin-top: 20px;
+        }
+        footer {
+        background-color:  #056351;
+    color: #fff;
+    padding: 6px;
+    text-align: center;
+    width: 100%;
+    bottom:0;
+    clear: both; /* Footer'ı içeriğin altına taşır */
+    margin-top: 20px; /* İçerik ile footer arasındaki boşluğu ayarlar */
+   }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Fırat Üniversitesi Yazılım Mühendisliği</h1>
+        <nav>
+            <ul>
+                <li><a href="homepage.html">Ana Sayfa</a></li>
+                <li><a href="about.html">Hakkımızda</a></li>
+                <li><a href="courses.html">Dersler</a></li>
+                <li><a href="news.html">Duyurular</a></li>
+                <li><a href="contact.html">İletişim</a></li>
+
+            </ul>
+        </nav>
+    </header>
+   
+    <section>
+        <div class="contact-info">
+            <h2>İletişim Bilgileri:</h2>
+            <p>Adres: Fırat Üniversitesi, Elazığ, Türkiye</p>
+            <p>Telefon: +90 424 123 45 67</p>
+            <p>E-posta: yazilim@firat.edu.tr</p><br><br><br><br>
+        </div>
+        <form action="#" method="post">
+            <label for="name">Ad Soyad:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">E-posta Adresi:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mesajınız:</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+
+            <input type="submit" value="Gönder">
+        </form>
+
+        
+    </section>
+    <footer>
+        <p>&copy; 2024 Fırat Üniversitesi</p>
+    </footer>
+</body>
+</html>
